@@ -52,6 +52,10 @@
      <Compile Include="Assets\script\CardDesign\Visual\HoverPreview.cs" />
      <Compile Include="Assets\script\CardDesign\Visual\OneCardManager.cs" />
      <Compile Include="Assets\script\CardDesign\Visual\OneUnitManager.cs" />
+     <Compile Include="Assets\script\CardDesign\Visual\Outlines\CircleOutline.cs" />
+     <Compile Include="Assets\script\CardDesign\Visual\Outlines\ListPool.cs" />
+     <Compile Include="Assets\script\CardDesign\Visual\Outlines\ModifiedShadow.cs" />
+     <Compile Include="Assets\script\CardDesign\Visual\Outlines\ObjectPool.cs" />
      <Compile Include="Assets\script\CardDesign\Visual\PlayerPortraitVisual.cs" />
      <Compile Include="Assets\script\CardDesign\Visual\ResourceVisual.cs" />
      <Compile Include="Assets\script\CardDesign\Visual\SameDistanceChildren.cs" />
