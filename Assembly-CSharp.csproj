@@ -52,6 +52,7 @@
      <Compile Include="Assets\script\CardDesign\Visual\DamageEffect.cs" />
      <Compile Include="Assets\script\CardDesign\Visual\DamageEffectTest.cs" />
      <Compile Include="Assets\script\CardDesign\Visual\HoverPreview.cs" />
+     <Compile Include="Assets\script\CardDesign\Visual\MessageManager.cs" />
      <Compile Include="Assets\script\CardDesign\Visual\OneCardManager.cs" />
      <Compile Include="Assets\script\CardDesign\Visual\OneUnitManager.cs" />
      <Compile Include="Assets\script\CardDesign\Visual\Outlines\CircleOutline.cs" />
