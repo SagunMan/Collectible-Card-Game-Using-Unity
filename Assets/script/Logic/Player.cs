@@ -13,7 +13,7 @@ public class Player : MonoBehaviour, ICharacter
     public Table table;
 
     private int bonusManaThisTurn = 0;
-    public bool usedHeroPowerThisTurn = false;
+    //public bool usedHeroPowerThisTurn = false;
 
     public int ID
     {
@@ -89,7 +89,7 @@ public class Player : MonoBehaviour, ICharacter
     {
         // add one mana crystal to the pool;
         Debug.Log("In ONTURNSTART for "+ gameObject.name);
-        usedHeroPowerThisTurn = false;
+        //usedHeroPowerThisTurn = false;
         ManaThisTurn++;
         ManaLeft = ManaThisTurn;
         foreach (CreatureLogic cl in table.CreaturesOnTable)

@@ -36,9 +36,9 @@ public class AITurnMaker: TurnMaker {
         if (Command.CardDrawPending())
             return true;
         else if (attackFirst)
-            return AttackWithACreature() || PlayACardFromHand() || UseHeroPower();
+            return AttackWithACreature() || PlayACardFromHand();
         else 
-            return PlayACardFromHand() || AttackWithACreature() || UseHeroPower();
+            return PlayACardFromHand() || AttackWithACreature();
     }
 
     bool PlayACardFromHand()
@@ -73,7 +73,7 @@ public class AITurnMaker: TurnMaker {
         return false;
     }
 
-    bool UseHeroPower()
+    /*bool UseHeroPower()
     {
         if (p.ManaLeft >= 2 && !p.usedHeroPowerThisTurn)
         {
@@ -84,7 +84,7 @@ public class AITurnMaker: TurnMaker {
             return true;
         }
         return false;
-    }
+    }*/
 
     bool AttackWithACreature()
     {

@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 107
+  controlID: 119
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 108
+  controlID: 71
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 109
+  controlID: 50
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -203,7 +203,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: e0eafffff2ebffff46f5ffff48f5ffffb6f8ffffe4fbffff000000009a270000
+    m_ExpandedIDs: c0fbffff0000000054290000a2290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -344,8 +344,8 @@ MonoBehaviour:
     y: 364
     width: 1089
     height: 271
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -389,19 +389,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/script/Visual
+    - Assets/gameAssets/CardAssets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/script/Visual
+  - Assets/gameAssets/CardAssets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Sagun\Documents\UnityProjects\Collectible-Card-Game-using-Unity-master
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 427}
-    m_SelectedIDs: a6250000
-    m_LastClickedID: 9638
-    m_ExpandedIDs: 00000000f224000046250000502500005a2500005c250000a6250000e2250000f4250000242600003a2600006226000064260000ac260000da260000f42600001227000022270000942e0000962e0000982e00009a2e00009c2e00009e2e0000a02e0000a22e0000042f000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: fc280000
+    m_LastClickedID: 10492
+    m_ExpandedIDs: 00000000d0260000242700002e270000382700003a27000084270000d02700000028000018280000422800004428000090280000c2280000ce280000de280000fc2800000e290000382f00003a2f00003c2f00003e2f0000402f0000422f0000442f0000462f0000482f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -429,7 +429,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 120}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f224000046250000502500005a2500005c25000084250000a6250000e2250000f4250000fa250000242600003a2600006226000064260000ac260000da260000f42600001227000022270000942e0000962e0000982e00009a2e00009c2e00009e2e0000a02e0000a22e0000
+    m_ExpandedIDs: 00000000d0260000242700002e270000382700003a27000084270000d02700000028000018280000422800004428000090280000c2280000ce280000de280000fc2800000e290000382f00003a2f00003c2f00003e2f0000402f0000422f0000442f0000462f0000482f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -528,8 +528,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 635
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
