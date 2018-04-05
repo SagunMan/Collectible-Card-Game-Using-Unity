@@ -114,6 +114,14 @@ public class Player : MonoBehaviour, ICharacter
         GetComponent<TurnMaker>().StopAllCoroutines();
     }
 
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            DrawACard();
+        }
+    }
+
     public void DrawACard(bool fast = false)
     {
         if (deck.cards.Count > 0)
