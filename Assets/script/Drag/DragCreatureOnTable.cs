@@ -15,7 +15,10 @@ public class DragCreatureOnTable : DraggingActions {
         get
         { 
             // TODO : include full field check
-            return base.CanDrag && manager.CanBePlayedNow;
+            //return base.CanDrag && manager.CanBePlayedNow;
+            
+            //for test only
+            return true;
         }
     }
 

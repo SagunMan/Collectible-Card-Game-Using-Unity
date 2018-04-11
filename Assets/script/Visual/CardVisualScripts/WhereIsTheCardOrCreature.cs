@@ -54,6 +54,8 @@ public class WhereIsTheCardOrCreature : MonoBehaviour {
                     hover.ThisPreviewEnabled = true;
                     break;
                 case VisualStates.LowTable:
+                    hover.ThisPreviewEnabled = true;
+                    break;
                 case VisualStates.TopTable:
                     hover.ThisPreviewEnabled = true;
                     break;

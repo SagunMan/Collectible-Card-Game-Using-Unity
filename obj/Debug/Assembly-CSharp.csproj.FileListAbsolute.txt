@@ -29,3 +29,11 @@ C:\Users\Sagun\Documents\UnityProjects\Collectible-Card-Game-using-Unity-master\
 C:\Users\Sagun\Documents\UnityProjects\Collectible-Card-Game-using-Unity-master\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Sagun\Documents\UnityProjects\Collectible-Card-Game-using-Unity-master\obj\Debug\Assembly-CSharp.dll
 C:\Users\Sagun\Documents\UnityProjects\Collectible-Card-Game-using-Unity-master\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Sagun\Documents\UnityProjects\Collectible-Card-Game-using-Unity-master\Temp\bin\Debug\DOTween.dll
+C:\Users\Sagun\Documents\UnityProjects\Collectible-Card-Game-using-Unity-master\Temp\bin\Debug\DOTween43.dll
+C:\Users\Sagun\Documents\UnityProjects\Collectible-Card-Game-using-Unity-master\Temp\bin\Debug\DOTween46.dll
+C:\Users\Sagun\Documents\UnityProjects\Collectible-Card-Game-using-Unity-master\Temp\bin\Debug\DOTween50.dll
+C:\Users\Sagun\Documents\UnityProjects\Collectible-Card-Game-using-Unity-master\Temp\bin\Debug\DOTween.xml
+C:\Users\Sagun\Documents\UnityProjects\Collectible-Card-Game-using-Unity-master\Temp\bin\Debug\DOTween43.xml
+C:\Users\Sagun\Documents\UnityProjects\Collectible-Card-Game-using-Unity-master\Temp\bin\Debug\DOTween46.xml
+C:\Users\Sagun\Documents\UnityProjects\Collectible-Card-Game-using-Unity-master\Temp\bin\Debug\DOTween50.xml

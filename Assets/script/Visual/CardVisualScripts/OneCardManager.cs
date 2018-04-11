@@ -23,7 +23,7 @@ public class OneCardManager : MonoBehaviour {
     public Image CardBodyImage;
     public Image CardFaceFrameImage;
     public Image CardFaceGlowImage;
-    public Image CardBackGlowImage;
+    //public Image CardBackGlowImage;
 
 	// Use this for initialization
 	void Awake ()

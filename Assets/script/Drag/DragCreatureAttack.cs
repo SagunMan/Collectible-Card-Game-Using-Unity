@@ -24,6 +24,7 @@ public class DragCreatureAttack : DraggingActions {
         sr = GetComponent<SpriteRenderer>();
         lr = GetComponentInChildren<LineRenderer>();
         lr.sortingLayerName = "AboveEverything";
+        lr.sortingOrder = 20;
         triangle = transform.Find("Triangle");
         triangleSR = triangle.GetComponent<SpriteRenderer>();
 
@@ -38,7 +39,10 @@ public class DragCreatureAttack : DraggingActions {
             // we can drag this card if 
             // a) we can control this our player (this is checked in base.canDrag)
             // b) creature "CanAttackNow" - this info comes from logic part of our code into each creature`s manager script
-            return base.CanDrag && manager.CanAttackNow;
+            //return base.CanDrag && manager.CanAttackNow;
+
+            //for test only
+            return true;
         }
     }
 

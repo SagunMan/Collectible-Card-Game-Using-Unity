@@ -97,6 +97,7 @@ public class HandVisual : MonoBehaviour
     GameObject CreateACardAtPosition(CardAsset c, Vector3 position, Vector3 eulerAngles)
     {
         // Instantiate a card depending on its type
+        position = new Vector3(-12.11f, -2.85f, 0f);
         GameObject card;
         if (c.MaxHealth > 0)
         {
@@ -104,7 +105,7 @@ public class HandVisual : MonoBehaviour
             card = GameObject.Instantiate(GlobalSettings.Instance.CreatureCardPrefab, position, Quaternion.Euler(eulerAngles)) as GameObject;
         }
         else
-        {
+        {   
             // this is a spell: checking for targeted or non-targeted spell
             if (c.Targets == TargetingOptions.NoTarget)
                 card = GameObject.Instantiate(GlobalSettings.Instance.NoTargetSpellCardPrefab, position, Quaternion.Euler(eulerAngles)) as GameObject;
@@ -144,7 +145,8 @@ public class HandVisual : MonoBehaviour
         // Bring card to front while it travels from draw spot to hand
         WhereIsTheCardOrCreature w = card.GetComponent<WhereIsTheCardOrCreature>();
         w.BringToFront();
-        w.Slot = 0; 
+        w.Slot = 0;
+        w.VisualState = VisualStates.Transition;
 
         // pass a unique ID to this card.
         IDHolder id = card.AddComponent<IDHolder>();
