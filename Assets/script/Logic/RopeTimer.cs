@@ -57,6 +57,7 @@ public class RopeTimer : MonoBehaviour, IEventSystemHandler
                 // check for rope
                 if (timeTillZero <= RopeBurnTime && !ropeIsBurning)
                 {
+                    
                     ropeIsBurning = true;
                     RopeGameObject.SetActive(true);
                 }

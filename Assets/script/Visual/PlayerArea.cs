@@ -15,6 +15,8 @@ public class PlayerArea : MonoBehaviour
     //public EndTurnButton EndTurnButton;
     public TableVisual tableVisual;
     public Transform PortraitPosition;
+    public Transform InitialPortraitPosition;
+    public Transform TimerPosition;
 
     public bool AllowedToControlThisPlayer
     {

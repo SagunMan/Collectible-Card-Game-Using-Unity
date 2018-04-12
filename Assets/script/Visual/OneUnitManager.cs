@@ -54,7 +54,7 @@ public class OneUnitManager : MonoBehaviour
     {
         if (amount > 0)
         {
-            //DamageEffect.CreateDamageEffect(transform.position, amount);
+            DamageEffect.CreateDamageEffect(transform.position, amount);
             HealthText.text = healthAfter.ToString();
         }
     }

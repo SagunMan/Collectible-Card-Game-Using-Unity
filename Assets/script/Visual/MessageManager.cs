@@ -40,7 +40,7 @@ public class MessageManager : MonoBehaviour
         yield return new WaitForSeconds(Duration);
         //Destroy(this.gameObject);
         MessagePanel.SetActive(false);
-        //Command.CommandExecutionComplete();
+        Command.CommandExecutionComplete();
     }
 
     void Update()

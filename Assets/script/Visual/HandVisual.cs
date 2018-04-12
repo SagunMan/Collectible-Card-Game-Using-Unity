@@ -97,7 +97,7 @@ public class HandVisual : MonoBehaviour
     GameObject CreateACardAtPosition(CardAsset c, Vector3 position, Vector3 eulerAngles)
     {
         // Instantiate a card depending on its type
-        position = new Vector3(-12.11f, -2.85f, 0f);
+        position = new Vector3(-12.11f, 0f, 0f);
         GameObject card;
         if (c.MaxHealth > 0)
         {
