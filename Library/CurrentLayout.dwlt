@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 495}
   m_MaxSize: {x: 14004, y: 14045}
   vertical: 0
-  controlID: 403
+  controlID: 1626
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 495}
   m_MaxSize: {x: 10002, y: 14045}
   vertical: 1
-  controlID: 404
+  controlID: 1627
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 405
+  controlID: 1628
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -363,10 +363,10 @@ MonoBehaviour:
     width: 205
     height: 343
   m_TreeViewState:
-    scrollPos: {x: 0, y: 83.56204}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: b8f6ffffbaf6ffffd2fbffff000000006e28000098280000
+    m_ExpandedIDs: e0fbffffe2fbffffe4fbffff00000000522800007c280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -500,19 +500,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/script/Logic/TurnsAndAI
+    - Assets/gameAssets/CardAssets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/script/Logic/TurnsAndAI
+  - Assets/gameAssets/CardAssets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Sagun\Documents\UnityProjects\Collectible-Card-Game-using-Unity-master
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 427}
-    m_SelectedIDs: 50270000
-    m_LastClickedID: 10064
-    m_ExpandedIDs: 000000009e250000f2250000fc250000062600000826000056260000a2260000d6260000ee260000182700001a2700006627000098270000a4270000b4270000d6270000e8270000f22f0000f42f0000f62f0000f82f0000fa2f0000fc2f0000fe2f0000003000000230000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 9e270000
+    m_LastClickedID: 10142
+    m_ExpandedIDs: 000000005c250000b2250000bc250000c6250000c82500001a260000662600009e260000b6260000e0260000e22600002e270000602700006c2700007c2700009e270000b0270000d62f0000d82f0000da2f0000dc2f0000de2f0000e02f0000e22f0000e42f0000e62f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -540,7 +540,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 120}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009e250000f2250000fc250000062600000826000056260000a2260000d6260000ee260000182700001a2700006627000098270000a4270000b4270000d6270000e8270000f22f0000f42f0000f62f0000f82f0000fa2f0000fc2f0000fe2f0000003000000230000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000005c250000b2250000bc250000c6250000c82500001a260000662600009e260000b6260000e0260000e22600002e270000602700006c2700007c2700009e270000b0270000d62f0000d82f0000da2f0000dc2f0000de2f0000e02f0000e22f0000e42f0000e62f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -567,7 +567,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000e6250000be27000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
