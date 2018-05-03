@@ -12,7 +12,15 @@ public class DragSpellOnTarget : DraggingActions {
     private Transform triangle;
     private SpriteRenderer triangleSR;
     private GameObject Target;
+    private OneCardManager manager;
 
+    public override bool CanDrag
+    {
+        get
+        {
+            return base.CanDrag && manager.CanBePlayedNow;
+        }
+    }
     void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -21,6 +29,7 @@ public class DragSpellOnTarget : DraggingActions {
         triangle = transform.Find("Triangle");
         triangleSR = triangle.GetComponent<SpriteRenderer>();
 
+        manager = GetComponentInParent<OneCardManager>();
         whereIsThisCard = GetComponentInParent<WhereIsTheCardOrCreature>();
     }
 

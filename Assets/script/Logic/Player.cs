@@ -218,6 +218,10 @@ public class Player : MonoBehaviour, ICharacter
         // no matter what happens, move this card to PlayACardSpot
         new PlayACreatureCommand(playedCard, this, tablePos, newCreature.UniqueCreatureID).AddToQueue();
         // remove this card from hand
+        if (newCreature.effect != null)
+        {
+            newCreature.effect.WhenACreatureIsPlayed();
+        }
         hand.CardsInHand.Remove(playedCard);
         HighlightPlayableCards();
     }
