@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scene/CardDesign.unity
+- path: Assets/scene/Multiplayer.unity
   isLoaded: 1
   isActive: 1
