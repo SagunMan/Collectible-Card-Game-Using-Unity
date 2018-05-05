@@ -95,6 +95,7 @@
      <Compile Include="Assets\script\Logic\TurnsAndAI\AITurnMaker.cs" />
      <Compile Include="Assets\script\Logic\TurnsAndAI\PlayerTurnMaker.cs" />
      <Compile Include="Assets\script\Logic\TurnsAndAI\TurnMaker.cs" />
+     <Compile Include="Assets\script\MainMenu.cs" />
      <Compile Include="Assets\script\ShufflingExtention.cs" />
      <Compile Include="Assets\script\Visual\CardVisualScripts\BetterCardRotation.cs" />
      <Compile Include="Assets\script\Visual\CardVisualScripts\OneCardManager.cs" />
