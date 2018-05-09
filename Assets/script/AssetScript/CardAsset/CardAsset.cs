@@ -41,5 +41,9 @@ public class CardAsset: ScriptableObject
     public int specialSpellAmount;
     public TargetingOptions Targets;
 
+    [Header("Lore")]
+    [TextArea(4,3)]
+    public string Lore;
+
 }
 

@@ -5,14 +5,16 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{BC3ED82A-E5DA-68C5-09B0-93FA5C40669A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,6 +25,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -31,6 +34,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,118 +50,119 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\script\AssetScript\CardAsset\CardAsset.cs" />
-     <Compile Include="Assets\script\AssetScript\CharacterAsset\CharacterAsset.cs" />
-     <Compile Include="Assets\script\Command\Command.cs" />
-     <Compile Include="Assets\script\Command\CreatureAttackCommand.cs" />
-     <Compile Include="Assets\script\Command\CreatureDieCommand.cs" />
-     <Compile Include="Assets\script\Command\DealDamageCommand.cs" />
-     <Compile Include="Assets\script\Command\DelayCommand.cs" />
-     <Compile Include="Assets\script\Command\DrawACardCommand.cs" />
-     <Compile Include="Assets\script\Command\GameOverCommand.cs" />
-     <Compile Include="Assets\script\Command\PlayACreatureCommand.cs" />
-     <Compile Include="Assets\script\Command\PlayASpellCardCommand.cs" />
-     <Compile Include="Assets\script\Command\ShowMessageCommand.cs" />
-     <Compile Include="Assets\script\Command\StartATurnCommand.cs" />
-     <Compile Include="Assets\script\Command\UpdateManaCrystalsCommand.cs" />
-     <Compile Include="Assets\script\Drag\DragCreatureAttack.cs" />
-     <Compile Include="Assets\script\Drag\DragCreatureOnTable.cs" />
-     <Compile Include="Assets\script\Drag\DragSpellNoTarget.cs" />
-     <Compile Include="Assets\script\Drag\DragSpellOnTarget.cs" />
-     <Compile Include="Assets\script\Drag\Draggable.cs" />
-     <Compile Include="Assets\script\Drag\DraggingActions.cs" />
-     <Compile Include="Assets\script\Drag\DraggingTest\DragOnTargetTest.cs" />
-     <Compile Include="Assets\script\Drag\DraggingTest\DraggableTestWithAction.cs" />
-     <Compile Include="Assets\script\Drag\DraggingTest\DraggingActionsTest.cs" />
-     <Compile Include="Assets\script\Drag\DraggingTest\DraggingActionsTestReturn.cs" />
-     <Compile Include="Assets\script\Logic\BattleStats.cs" />
-     <Compile Include="Assets\script\Logic\Buffs\Buff.cs" />
-     <Compile Include="Assets\script\Logic\CardLogic.cs" />
-     <Compile Include="Assets\script\Logic\Character.cs" />
-     <Compile Include="Assets\script\Logic\CreatureLogic.cs" />
-     <Compile Include="Assets\script\Logic\CreatureScripts\BiteOwner.cs" />
-     <Compile Include="Assets\script\Logic\CreatureScripts\CreatureEffect.cs" />
-     <Compile Include="Assets\script\Logic\CreatureScripts\DamageOpponent.cs" />
-     <Compile Include="Assets\script\Logic\Deck.cs" />
-     <Compile Include="Assets\script\Logic\Hand.cs" />
-     <Compile Include="Assets\script\Logic\IDHolder.cs" />
-     <Compile Include="Assets\script\Logic\MovesHighlighter.cs" />
-     <Compile Include="Assets\script\Logic\Player.cs" />
-     <Compile Include="Assets\script\Logic\RopeTimer.cs" />
-     <Compile Include="Assets\script\Logic\SpellScripts\DamageAllCreatures.cs" />
-     <Compile Include="Assets\script\Logic\SpellScripts\DealDamageToTarget.cs" />
-     <Compile Include="Assets\script\Logic\SpellScripts\GiveManaBonus.cs" />
-     <Compile Include="Assets\script\Logic\SpellScripts\HeroPower2Face.cs" />
-     <Compile Include="Assets\script\Logic\SpellScripts\HeroPowerDrawCardTakeDamage.cs" />
-     <Compile Include="Assets\script\Logic\SpellScripts\SpellEffect.cs" />
-     <Compile Include="Assets\script\Logic\Table.cs" />
-     <Compile Include="Assets\script\Logic\TurnManager.cs" />
-     <Compile Include="Assets\script\Logic\TurnsAndAI\AITurnMaker.cs" />
-     <Compile Include="Assets\script\Logic\TurnsAndAI\PlayerTurnMaker.cs" />
-     <Compile Include="Assets\script\Logic\TurnsAndAI\TurnMaker.cs" />
-     <Compile Include="Assets\script\MainMenu.cs" />
-     <Compile Include="Assets\script\ShufflingExtention.cs" />
-     <Compile Include="Assets\script\Visual\CardVisualScripts\BetterCardRotation.cs" />
-     <Compile Include="Assets\script\Visual\CardVisualScripts\OneCardManager.cs" />
-     <Compile Include="Assets\script\Visual\CardVisualScripts\WhereIsTheCardOrCreature.cs" />
-     <Compile Include="Assets\script\Visual\CreatureAttackVisual.cs" />
-     <Compile Include="Assets\script\Visual\DamageEffect.cs" />
-     <Compile Include="Assets\script\Visual\DamageEffectTest.cs" />
-     <Compile Include="Assets\script\Visual\EndTurnButton.cs" />
-     <Compile Include="Assets\script\Visual\GlobalSettings.cs" />
-     <Compile Include="Assets\script\Visual\HandVisual.cs" />
-     <Compile Include="Assets\script\Visual\HoverPreview.cs" />
-     <Compile Include="Assets\script\Visual\IDFactory.cs" />
-     <Compile Include="Assets\script\Visual\ManaPoolVisual.cs" />
-     <Compile Include="Assets\script\Visual\MessageManager.cs" />
-     <Compile Include="Assets\script\Visual\OneUnitManager.cs" />
-     <Compile Include="Assets\script\Visual\Outlines\CircleOutline.cs" />
-     <Compile Include="Assets\script\Visual\Outlines\ListPool.cs" />
-     <Compile Include="Assets\script\Visual\Outlines\ModifiedShadow.cs" />
-     <Compile Include="Assets\script\Visual\Outlines\ObjectPool.cs" />
-     <Compile Include="Assets\script\Visual\PlayerArea.cs" />
-     <Compile Include="Assets\script\Visual\PlayerDeckVisual.cs" />
-     <Compile Include="Assets\script\Visual\PlayerPortraitVisual.cs" />
-     <Compile Include="Assets\script\Visual\ResourceVisual.cs" />
-     <Compile Include="Assets\script\Visual\SameDistanceChildren.cs" />
-     <Compile Include="Assets\script\Visual\TableVisual.cs" />
-     <None Include="Assets\DOTween\DOTween46.xml" />
-     <None Include="Assets\DOTween\DOTween43.xml" />
-     <None Include="Assets\DOTween\DOTween50.xml" />
-     <None Include="Assets\DOTween\readme.txt" />
- <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
- </Reference>
- <Reference Include="nunit.framework">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.HoloLens">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.VR">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
- </Reference>
- <Reference Include="DOTween">
- <HintPath>C:/Users/Sagun/Documents/UnityProjects/Collectible-Card-Game-using-Unity-master/Assets/DOTween/DOTween.dll</HintPath>
- </Reference>
- <Reference Include="DOTween43">
- <HintPath>C:/Users/Sagun/Documents/UnityProjects/Collectible-Card-Game-using-Unity-master/Assets/DOTween/DOTween43.dll</HintPath>
- </Reference>
- <Reference Include="DOTween46">
- <HintPath>C:/Users/Sagun/Documents/UnityProjects/Collectible-Card-Game-using-Unity-master/Assets/DOTween/DOTween46.dll</HintPath>
- </Reference>
- <Reference Include="DOTween50">
- <HintPath>C:/Users/Sagun/Documents/UnityProjects/Collectible-Card-Game-using-Unity-master/Assets/DOTween/DOTween50.dll</HintPath>
- </Reference>
+    <Compile Include="Assets\script\AssetScript\CardAsset\CardAsset.cs" />
+    <Compile Include="Assets\script\AssetScript\CharacterAsset\CharacterAsset.cs" />
+    <Compile Include="Assets\script\CardCollection.cs" />
+    <Compile Include="Assets\script\Command\Command.cs" />
+    <Compile Include="Assets\script\Command\CreatureAttackCommand.cs" />
+    <Compile Include="Assets\script\Command\CreatureDieCommand.cs" />
+    <Compile Include="Assets\script\Command\DealDamageCommand.cs" />
+    <Compile Include="Assets\script\Command\DelayCommand.cs" />
+    <Compile Include="Assets\script\Command\DrawACardCommand.cs" />
+    <Compile Include="Assets\script\Command\GameOverCommand.cs" />
+    <Compile Include="Assets\script\Command\PlayACreatureCommand.cs" />
+    <Compile Include="Assets\script\Command\PlayASpellCardCommand.cs" />
+    <Compile Include="Assets\script\Command\ShowMessageCommand.cs" />
+    <Compile Include="Assets\script\Command\StartATurnCommand.cs" />
+    <Compile Include="Assets\script\Command\UpdateManaCrystalsCommand.cs" />
+    <Compile Include="Assets\script\Drag\DragCreatureAttack.cs" />
+    <Compile Include="Assets\script\Drag\DragCreatureOnTable.cs" />
+    <Compile Include="Assets\script\Drag\DragSpellNoTarget.cs" />
+    <Compile Include="Assets\script\Drag\DragSpellOnTarget.cs" />
+    <Compile Include="Assets\script\Drag\Draggable.cs" />
+    <Compile Include="Assets\script\Drag\DraggingActions.cs" />
+    <Compile Include="Assets\script\Drag\DraggingTest\DragOnTargetTest.cs" />
+    <Compile Include="Assets\script\Drag\DraggingTest\DraggableTestWithAction.cs" />
+    <Compile Include="Assets\script\Drag\DraggingTest\DraggingActionsTest.cs" />
+    <Compile Include="Assets\script\Drag\DraggingTest\DraggingActionsTestReturn.cs" />
+    <Compile Include="Assets\script\Logic\BattleStats.cs" />
+    <Compile Include="Assets\script\Logic\Buffs\Buff.cs" />
+    <Compile Include="Assets\script\Logic\CardLogic.cs" />
+    <Compile Include="Assets\script\Logic\Character.cs" />
+    <Compile Include="Assets\script\Logic\CreatureLogic.cs" />
+    <Compile Include="Assets\script\Logic\CreatureScripts\BiteOwner.cs" />
+    <Compile Include="Assets\script\Logic\CreatureScripts\CreatureEffect.cs" />
+    <Compile Include="Assets\script\Logic\CreatureScripts\DamageOpponent.cs" />
+    <Compile Include="Assets\script\Logic\Deck.cs" />
+    <Compile Include="Assets\script\Logic\Hand.cs" />
+    <Compile Include="Assets\script\Logic\IDHolder.cs" />
+    <Compile Include="Assets\script\Logic\MovesHighlighter.cs" />
+    <Compile Include="Assets\script\Logic\Player.cs" />
+    <Compile Include="Assets\script\Logic\RopeTimer.cs" />
+    <Compile Include="Assets\script\Logic\SpellScripts\DamageAllCreatures.cs" />
+    <Compile Include="Assets\script\Logic\SpellScripts\DealDamageToTarget.cs" />
+    <Compile Include="Assets\script\Logic\SpellScripts\GiveManaBonus.cs" />
+    <Compile Include="Assets\script\Logic\SpellScripts\HeroPower2Face.cs" />
+    <Compile Include="Assets\script\Logic\SpellScripts\HeroPowerDrawCardTakeDamage.cs" />
+    <Compile Include="Assets\script\Logic\SpellScripts\SpellEffect.cs" />
+    <Compile Include="Assets\script\Logic\Table.cs" />
+    <Compile Include="Assets\script\Logic\TurnManager.cs" />
+    <Compile Include="Assets\script\Logic\TurnsAndAI\AITurnMaker.cs" />
+    <Compile Include="Assets\script\Logic\TurnsAndAI\PlayerTurnMaker.cs" />
+    <Compile Include="Assets\script\Logic\TurnsAndAI\TurnMaker.cs" />
+    <Compile Include="Assets\script\MainMenu.cs" />
+    <Compile Include="Assets\script\ShufflingExtention.cs" />
+    <Compile Include="Assets\script\Visual\CardVisualScripts\BetterCardRotation.cs" />
+    <Compile Include="Assets\script\Visual\CardVisualScripts\OneCardManager.cs" />
+    <Compile Include="Assets\script\Visual\CardVisualScripts\WhereIsTheCardOrCreature.cs" />
+    <Compile Include="Assets\script\Visual\CreatureAttackVisual.cs" />
+    <Compile Include="Assets\script\Visual\DamageEffect.cs" />
+    <Compile Include="Assets\script\Visual\DamageEffectTest.cs" />
+    <Compile Include="Assets\script\Visual\EndTurnButton.cs" />
+    <Compile Include="Assets\script\Visual\GlobalSettings.cs" />
+    <Compile Include="Assets\script\Visual\HandVisual.cs" />
+    <Compile Include="Assets\script\Visual\HoverPreview.cs" />
+    <Compile Include="Assets\script\Visual\IDFactory.cs" />
+    <Compile Include="Assets\script\Visual\ManaPoolVisual.cs" />
+    <Compile Include="Assets\script\Visual\MessageManager.cs" />
+    <Compile Include="Assets\script\Visual\OneUnitManager.cs" />
+    <Compile Include="Assets\script\Visual\Outlines\CircleOutline.cs" />
+    <Compile Include="Assets\script\Visual\Outlines\ListPool.cs" />
+    <Compile Include="Assets\script\Visual\Outlines\ModifiedShadow.cs" />
+    <Compile Include="Assets\script\Visual\Outlines\ObjectPool.cs" />
+    <Compile Include="Assets\script\Visual\PlayerArea.cs" />
+    <Compile Include="Assets\script\Visual\PlayerDeckVisual.cs" />
+    <Compile Include="Assets\script\Visual\PlayerPortraitVisual.cs" />
+    <Compile Include="Assets\script\Visual\ResourceVisual.cs" />
+    <Compile Include="Assets\script\Visual\SameDistanceChildren.cs" />
+    <Compile Include="Assets\script\Visual\TableVisual.cs" />
+    <None Include="Assets\DOTween\DOTween46.xml" />
+    <None Include="Assets\DOTween\DOTween43.xml" />
+    <None Include="Assets\DOTween\DOTween50.xml" />
+    <None Include="Assets\DOTween\readme.txt" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>C:/Users/Sagun/Documents/UnityProjects/Collectible-Card-Game-using-Unity-master/Assets/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>C:/Users/Sagun/Documents/UnityProjects/Collectible-Card-Game-using-Unity-master/Assets/DOTween/DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>C:/Users/Sagun/Documents/UnityProjects/Collectible-Card-Game-using-Unity-master/Assets/DOTween/DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>C:/Users/Sagun/Documents/UnityProjects/Collectible-Card-Game-using-Unity-master/Assets/DOTween/DOTween50.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -167,5 +172,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
 </Project>

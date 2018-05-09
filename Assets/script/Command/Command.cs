@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 public class Command
 {
@@ -24,12 +25,20 @@ public class Command
 
     public static void CommandExecutionComplete()
     {
-        if (CommandQueue.Count > 0)
-            PlayFirstCommandFromQueue();
-        else
-            playingQueue = false;
-        if (TurnManager.Instance.whoseTurn != null)
-            TurnManager.Instance.whoseTurn.HighlightPlayableCards();
+        try
+        {
+            if (CommandQueue.Count > 0)
+                PlayFirstCommandFromQueue();
+            else
+                playingQueue = false;
+            if (TurnManager.Instance.whoseTurn != null)
+                TurnManager.Instance.whoseTurn.HighlightPlayableCards();
+        }
+        catch (Exception ex)
+        {
+
+        }
+        
     }
 
     public static void PlayFirstCommandFromQueue()

@@ -28,7 +28,7 @@ public class Player : MonoBehaviour, ICharacter
         {
             manaThisTurn = value;
             //PArea.ManaBar.TotalCrystals = manaThisTurn;
-            new UpdateManaCrystalsCommand(this, manaThisTurn, manaLeft).AddToQueue();
+            new UpdateResourceCommand(this, manaThisTurn, manaLeft).AddToQueue();
         }
     }
 
@@ -41,7 +41,7 @@ public class Player : MonoBehaviour, ICharacter
         {
             manaLeft = value;
             //PArea.ManaBar.AvailableCrystals = manaLeft;
-            new UpdateManaCrystalsCommand(this, ManaThisTurn, manaLeft).AddToQueue();
+            new UpdateResourceCommand(this, ManaThisTurn, manaLeft).AddToQueue();
             //Debug.Log(ManaLeft);
             if (TurnManager.Instance.whoseTurn == this)
                 HighlightPlayableCards();

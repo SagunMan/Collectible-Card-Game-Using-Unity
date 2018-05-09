@@ -27,9 +27,9 @@ public class MessageManager : MonoBehaviour
         MessageText.text = Message;
         MessagePanel.SetActive(true);
 
-        cg.alpha = 1f;
+        cg.alpha = Duration;
         // wait for 1 second before fading
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(Duration);
         // gradually fade the effect by changing its alpha value
         while (cg.alpha > 0)
         {
@@ -45,9 +45,9 @@ public class MessageManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Y))
-            ShowMessage("Your Turn", 3f);
-        if (Input.GetKey(KeyCode.E))
-            ShowMessage("Enemy's Turn", 3f);
+        //if (Input.GetKey(KeyCode.Y))
+            //ShowMessage("Your Turn", 3f);
+        //if (Input.GetKey(KeyCode.E))
+            //ShowMessage("Enemy's Turn", 3f);
     }
 }
